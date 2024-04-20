@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(9, 9, 58);
+}
+
+.svgcontainer{
+    position: relative;
+    top: 5cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#svg1{
+   
+    height: 10cm;
+    
+    
+    color: rebeccapurple;
+    animation-name: svganim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+    
+   
+
+}
+@keyframes svganim {
+    0%{
+        fill: none;
+        stroke-dasharray: 280%;
+        stroke-dashoffset: 290%;
+    }
+
+    50%{
+        fill: rgba(255, 255, 255, 0);
+        stroke-dasharray:  280%;
+        stroke-dashoffset: 0%;
+    }
+
+    
+    100%{
+        stroke: none;
+        fill: white;
+    }
+    
+}
+
